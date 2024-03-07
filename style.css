@@ -28,12 +28,15 @@ body {
 
 #titolo {
     color: #E52D6D;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 /* ++++++++++++ */
 
-/* style cards */
 
+/* style contenitori cards */
 .contenitore-cards {
     width: calc(100% / 3);
     height: 7em;
@@ -51,20 +54,36 @@ body {
     margin-right: 1em;
 }
 
-img {
-    height: 100%;
-}
-
 .info-cards {
     height: 100%;
-    line-height: 30px;
+    padding-top: 0.2em;
     color: white;
+}
+
+.tre-cards {
+    margin-top: 2em;
+}
+
+/* ++++++++++++ */
+
+
+/* style contenuto cards */
+img {
+    height: 100%;
 }
 
 .email {
     color: #50C0EB;
 }
 
-.tre-cards {
-    margin-top: 2em;
+.nome {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
+.info-cards p {
+    padding: 5px;
+}
+
+/* ++++++++++++ */
